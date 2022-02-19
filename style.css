@@ -42,7 +42,7 @@ h1 {
     font-weight: 800;
     color: #F9FAF8;
 }
-
+.banner div,
 .footer,
 h3 a,
 .subtext {
@@ -54,7 +54,7 @@ h3 a,
 .header {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 3vw;
 }
 
 .title {
@@ -82,7 +82,7 @@ h3 a,
 
 .sign-up {
     background: #3882F6;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 5px 20px;
     border: none;
     font-size: 16px;
@@ -120,6 +120,7 @@ h3 a,
 .content {
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -160,4 +161,19 @@ h3 a,
     font-size: 20px;
     font-weight: 800;
     color: #1f2937;
+}
+
+.banner {
+    background-color: #3882F6;
+    align-self: center;
+    display: flex;
+    padding: 50px 10vw;
+    margin-top: auto;
+    gap: 10vw;
+}
+
+.banner .sign-up {
+    border: solid;
+    border-width: 1px;
+    margin: 10px 0px;
 }
