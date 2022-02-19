@@ -101,3 +101,63 @@ h3 a,
     padding: 30px;
     background-color: #1F2937;
 }
+
+.information {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin-bottom: 36px;
+}
+
+.content {
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    width: 150px;
+    height: auto;
+    text-align: center;
+}
+
+.card img {
+    width: 150px;
+    height: auto;
+}
+
+.grey-background {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-section {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    margin: 5vh 0px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.author {
+    align-self: flex-end;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #1f2937;
+}
